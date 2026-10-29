@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <title>SitChess</title>
+  <meta name="description" content="SitChess — шахматы с Бобиком: учись с нуля до гамбитов, играй онлайн и поднимайся в мировой таблице.">
+  <meta name="theme-color" content="#faf8ff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="SitChess">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="icon" type="image/png" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta property="og:title" content="SitChess">
+  <meta property="og:description" content="Шахматы с Бобиком — By Alakbarov">
+  <meta property="og:image" content="assets/icon-512.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app"></div>
+  <noscript>SitChess needs JavaScript.</noscript>
+
+  <script src="js/chess.js"></script>
+  <script src="js/ui.js"></script>
+  <!-- Firebase (accounts, online games, world table). Configure js/firebase-config.js -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/online.js"></script>
+  <script src="js/lessons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
